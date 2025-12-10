@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+    <title>Tree availability distribution map</title>
+    <layers>
+        <layer>
+            <datasource>
+                <type>ESRI Shapefile</type>
+                <path>Tree availability distribution map.shp</path>
+            </datasource>
+            <layername>Tree availability distribution map</layername>
+            <title/>
+            <variable_order>
+                <time_ids>
+                    <id>time 0</id>
+                </time_ids>
+                <var>CTLabel</var>
+                <var>BoroCode</var>
+                <var>BoroName</var>
+                <var>CT2020</var>
+                <var>BoroCT2020</var>
+                <var>CDEligibil</var>
+                <var>NTAName</var>
+                <var>NTA2020</var>
+                <var>CDTA2020</var>
+                <var>CDTANAME</var>
+                <var>GEOID</var>
+                <var>PUMA</var>
+                <var>
+                    Shape_Leng
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Shape_Area
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>Income</var>
+                <var>INCOME_1</var>
+                <var>POPDENSITY</var>
+                <var>Area</var>
+                <var>Demographi</var>
+                <var>Demograp_1</var>
+                <var>Demograp_2</var>
+                <var>Demograp_3</var>
+                <var>Demograp_4</var>
+                <var>Demograp_5</var>
+                <var>Demograp_6</var>
+                <var>
+                    NUMPOINTS
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Tree_pop
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Popdensi_1
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    TreePopden
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Popden_km2
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Treepopde2
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    Tree avail
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    TreeDensit
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    MORAN_STD
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+                <var>
+                    MORAN_LAG
+                    <displayed_decimals>6</displayed_decimals>
+                </var>
+            </variable_order>
+            <custom_classifications/>
+            <weights_entries>
+                <weights>
+                    <title>Tree availability distribution map weight</title>
+                    <default/>
+                    <meta_info>
+                        <weights_type>queen</weights_type>
+                        <order>1</order>
+                        <inc_lower_orders>false</inc_lower_orders>
+                        <path>Tree availability distribution map weight.gal</path>
+                        <id_variable>GEOID</id_variable>
+                        <symmetry>symmetric</symmetry>
+                        <num_observations>2325</num_observations>
+                        <min_neighbors>0</min_neighbors>
+                        <max_neighbors>30</max_neighbors>
+                        <mean_neighbors>6.155698924731182</mean_neighbors>
+                        <median_neighbors>6</median_neighbors>
+                        <non_zero_perc>0.2647612440744595</non_zero_perc>
+                    </meta_info>
+                </weights>
+            </weights_entries>
+            <default_vars>
+                <default_var>
+                    <name>NUMPOINTS</name>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+                <default_var>
+                    <name/>
+                    <time_id>time 0</time_id>
+                </default_var>
+            </default_vars>
+        </layer>
+    </layers>
+</project>
